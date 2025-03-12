@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylvan North Forestry | Sustainable Forestry & Carbon Solutions</title>
+    <meta name="description" content="Sylvan North Forestry is dedicated to sustainable forestry, carbon sequestration, and agroforestry in Northern Ontario.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo"><i class="fas fa-tree"></i> Sylvan North</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#crowdfunding">Support Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Sustainable Forestry for a Greener Tomorrow</h1>
+                <p>Join us in our mission to reforest Northern Ontario, sequester carbon, and create a sustainable future for generations to come.</p>
+                <div class="hero-buttons">
+                    <a href="#crowdfunding" class="btn btn-accent btn-large">Support Our Project</a>
+                    <a href="#about" class="btn btn-outline btn-large">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <span>Discover</span>
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Our Vision</h2>
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="images/about-reforestation.jpg" alt="Reforestation efforts">
+                </div>
+                <div class="about-content">
+                    <h2>Restoring Our Forests, Securing Our Future</h2>
+                    <p>Sylvan North Forestry is dedicated to acquiring and transforming 100+ acres of land in Northern Ontario into thriving forest ecosystems that benefit both the environment and local communities.</p>
+                    <p>Our integrated approach combines sustainable timber harvesting, tree nursery operations, agroforestry, and carbon sequestration to create a model of regenerative land management.</p>
+                    <div class="stat-cards">
+                        <div class="stat-card">
+                            <div class="number">100+</div>
+                            <div class="label">Acres to Revitalize</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="number">50K+</div>
+                            <div class="label">Trees to Plant</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="number">4</div>
+                            <div class="label">Revenue Streams</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Approach</h2>
+            <div class="services-container" id="services-container">
+                <!-- Services will be loaded from data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="impact">
+        <div class="container">
+            <h2 class="section-title">Our Impact</h2>
+            <div class="impact-container" id="impact-container">
+                <!-- Impact metrics will be loaded from data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Our Projects</h2>
+            <div class="projects-container" id="projects-container">
+                <!-- Projects will be loaded from data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Crowdfunding Section -->
+    <section class="crowdfunding" id="crowdfunding">
+        <div class="container">
+            <h2 class="section-title">Support Our Mission</h2>
+            <div class="funding-progress">
+                <h3>Help Us Reach Our Goal</h3>
+                <p>We're raising funds to acquire 100+ acres of land in Northern Ontario to begin our sustainable forestry and carbon sequestration initiative.</p>
+                <div class="progress-info">
+                    <span id="raised-amount">$85,000 Raised</span>
+                    <span id="goal-amount">$250,000 Goal</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="funding-stats">
+                    <div class="funding-stat">
+                        <div class="number" id="supporter-count">127</div>
+                        <p>Supporters</p>
+                    </div>
+                    <div class="funding-stat">
+                        <div class="number" id="percent-funded">34%</div>
+                        <p>Funded</p>
+                    </div>
+                    <div class="funding-stat">
+                        <div class="number" id="days-left">75</div>
+                        <p>Days Left</p>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-accent btn-large" id="contribute-button">Contribute Now</a>
+            </div>
+            
+            <div class="funding-levels">
+                <h3 class="section-title">Support Tiers</h3>
+                <div class="services-container" id="funding-tiers-container">
+                    <!-- Funding tiers will be loaded from data.js -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Supporters Say</h2>
+            <div class="testimonial-container" id="testimonials-container">
+                <!-- Testimonials will be loaded from data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>Have questions about our projects or how you can contribute? Reach out to us directly!</p>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Thunder Bay, Ontario, Canada</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@sylvannorth.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (807) 555-1234</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form" action="https://formspree.io/f/your-formspree-id" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" class="form-control form-message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-container">
+                <div class="newsletter-content">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <p>Stay updated with our latest projects, events, and progress.</p>
+                </div>
+                <form id="newsletter-form" class="newsletter-form" action="https://formspree.io/f/your-formspree-id" method="POST">
+                    <input type="email" name="email" class="newsletter-input" placeholder="Enter your email" required>
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Sylvan North</h3>
+                    <p>Sustainable forestry and carbon solutions for a greener tomorrow.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Approach</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#crowdfunding">Support Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Timber Harvesting</a></li>
+                        <li><a href="#">Tree Nursery</a></li>
+                        <li><a href="#">Agroforestry</a></li>
+                        <li><a href="#">Carbon Credits</a></li>
+                        <li><a href="#">Land Restoration</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Funding Transparency</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> Sylvan North Forestry. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
