@@ -27,32 +27,33 @@
     </div>
   </header>
 
+  <!-- About Section -->
+  <section id="about" style="padding: 2rem; max-width: 800px; margin: auto;">
+    <h2>About Us</h2>
+    <p><strong>At SylvanNorth, we believe reforestation is more than planting trees—it’s about restoring living relationships.</strong></p>
+    <p>We are driven by the understanding that forests are not just ecosystems—they are ancestral landscapes, kinship networks, and teachers. Our mission is to support meaningful reforestation through innovation rooted in respect.</p>
+    <p>Our flagship solution, the <strong>BioPod</strong>, is a 100% native, zero-waste planting system designed to accelerate ecological regeneration. Each BioPod is crafted from biodegradable mycelium and coconut coir, embedded with locally adapted, lab-propagated seedlings, and infused with beneficial microbes. This closed-loop design nourishes the soil, supports native biodiversity, and eliminates plastic waste from the planting process.</p>
+    <p>But what truly sets us apart is our commitment to <strong>Indigenous-informed reforestation</strong>. We actively collaborate with Indigenous communities, knowledge keepers, and land stewards to ensure our work honours cultural relationships with the land. This includes careful species selection, land-based protocols, and shared stewardship models that go beyond “sustainability” toward <em>reciprocity</em>.</p>
+    <blockquote>
+      <p><strong>Every BioPod is a promise:</strong><br>
+      To respect the land.<br>
+      To honour ancestral knowledge.<br>
+      To regenerate forests that thrive for generations.</p>
+    </blockquote>
+    <p>We’re not just rebuilding forests—we’re restoring relationships.</p>
+  </section>
+
+  <!-- Shop Section -->
   <section class="featured-products" id="shop">
     <div class="container">
       <h2>Featured Products</h2>
-      <div class="product-grid">
-        <!-- Sample Product -->
-        <div class="product-card">
-          <img src="images/red-osier.jpg" alt="Red Osier Dogwood" />
-          <h3>Red Osier Dogwood</h3>
-          <p>Hardy native shrub for riparian restoration</p>
-          <strong>$4.50</strong>
-          <button class="snipcart-add-item"
-            data-item-id="red-osier"
-            data-item-price="4.50"
-            data-item-url="/"
-            data-item-description="Hardy native shrub for wetland zones"
-            data-item-image="images/red-osier.jpg"
-            data-item-name="Red Osier Dogwood">
-            Add to Cart
-          </button>
-        </div>
-
-        <!-- Add more products as needed -->
+      <div class="product-grid" id="product-grid">
+        <!-- Products will be loaded here by JS -->
       </div>
     </div>
   </section>
 
+  <!-- Donation Section -->
   <section class="donation" id="donate">
     <div class="container">
       <h2>Help Reforest Ontario</h2>
@@ -61,11 +62,16 @@
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     <div class="container">
       <p>&copy; 2025 Sylvan Seeds. All rights reserved.</p>
       <p><a href="mailto:info@sylvanseeds.ca">info@sylvanseeds.ca</a></p>
     </div>
   </footer>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
