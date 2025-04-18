@@ -14,6 +14,9 @@
   <script async src="https://cdn.snipcart.com/themes/v3.6.1/default/snipcart.js"></script>
   <div hidden id="snipcart" data-api-key="YOUR_PUBLIC_API_KEY"></div>
 
+  <!-- Donorbox -->
+  <script src="https://donorbox.org/widget.js" paypalExpress="false"></script>
+
   <!-- Styles -->
   <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -51,11 +54,22 @@
     </div>
   </section>
 
-  <section class="donation" id="donate">
-    <div class="container">
+  <section class="donation" id="donate" style="padding: 2rem; background-color: #f4f4f4;">
+    <div class="container" style="text-align: center;">
       <h2>Help Reforest Ontario</h2>
       <p>Contribute directly to our land acquisition and planting projects. Every dollar supports boots-on-the-ground reforestation.</p>
-      <iframe src="https://donorbox.org/embed/your-form-id" height="500px" width="100%" style="max-width: 600px; margin: auto;" allowpaymentrequest frameborder="0" scrolling="no"></iframe>
+      <iframe
+        src="https://donorbox.org/embed/roots-of-change-support-local-reforestation-2?amount=30&show_content=true"
+        name="donorbox"
+        allowpaymentrequest="allowpaymentrequest"
+        seamless="seamless"
+        frameborder="0"
+        scrolling="no"
+        height="900px"
+        width="100%"
+        style="max-width: 500px; min-width: 250px; max-height:none!important; margin: auto; display: block;"
+        allow="payment">
+      </iframe>
     </div>
   </section>
 
