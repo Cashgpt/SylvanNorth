@@ -86,10 +86,46 @@
       text-align: center;
     }
 
-    .donation {
-      background: #e4f1ed;
-      padding: 2rem 1rem;
+    .donation-section {
+      background: #e6f4ea;
+      padding: 3rem 1rem;
       margin-top: 2rem;
+      border-radius: 1rem;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .donation-section h2 {
+      color: #1b4332;
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .donation-section p {
+      color: #3a5a40;
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .donate-button {
+      background: linear-gradient(135deg, #2d6a4f, #1b4332);
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 8px;
+      padding: 14px 28px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .donate-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 14px rgba(45, 106, 79, 0.35);
     }
 
     footer {
@@ -145,22 +181,14 @@
     </div>
   </section>
 
-  <section class="donation" id="donate">
-    <div class="container" style="text-align: center;">
+  <!-- Redesigned Donation Section -->
+  <section class="donation-section" id="donate">
+    <div class="container">
       <h2>Help Reforest Ontario</h2>
-      <p>Your contribution directly supports reforestation, ecological monitoring, and land-based partnerships across the province.</p>
-      <iframe
-        src="https://donorbox.org/embed/roots-of-change-support-local-reforestation-2?amount=30&show_content=true"
-        name="donorbox"
-        allowpaymentrequest="allowpaymentrequest"
-        seamless="seamless"
-        frameborder="0"
-        scrolling="no"
-        height="900px"
-        width="100%"
-        style="max-width: 500px; min-width: 250px; margin: auto; display: block;"
-        allow="payment">
-      </iframe>
+      <p>Your donation supports science-based reforestation, ecological restoration, and land stewardship across the province.</p>
+      <a href="https://donorbox.org/roots-of-change-support-local-reforestation-2" target="_blank">
+        <button class="donate-button">Donate Now</button>
+      </a>
     </div>
   </section>
 
