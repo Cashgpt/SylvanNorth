@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sylvan Seeds | Regenerative Seeds & Seedlings</title>
   <meta name="description" content="Scientifically selected native seeds and seedlings for ecological restoration, climate adaptation, and sustainable reforestation across Canada.">
 
-  <!-- Open Graph Meta -->
+  <!-- SEO Meta -->
+  <link rel="canonical" href="https://sylvanseeds.ca" />
+
+  <!-- Open Graph (Facebook, LinkedIn) -->
   <meta property="og:title" content="Sylvan Seeds | Regenerative Seeds & Seedlings">
   <meta property="og:description" content="Scientifically selected native seeds and seedlings for ecological restoration and sustainable reforestation in Canada.">
   <meta property="og:image" content="/assets/preview.jpg">
@@ -43,6 +46,7 @@
       margin: 0;
       background: #f9f9f9;
       color: #222;
+      line-height: 1.6;
     }
 
     header.hero {
@@ -60,6 +64,7 @@
 
     h1, h2 {
       font-weight: 600;
+      margin-bottom: 1rem;
     }
 
     a.btn {
@@ -168,6 +173,11 @@
       padding: 1rem 1.5rem;
       font-style: italic;
     }
+
+    a:focus, button:focus {
+      outline: 2px solid #2ba587;
+      outline-offset: 2px;
+    }
   </style>
 </head>
 
@@ -176,51 +186,53 @@
     <div class="container">
       <h1>Sylvan Seeds</h1>
       <p>Science-driven seeds & seedlings for ecological restoration and resilient reforestation</p>
-      <a href="#shop" class="btn btn-accent">Shop Now</a>
-      <a href="#donate" class="btn btn-outline">Support Reforestation</a>
+      <a href="#shop" class="btn btn-accent" aria-label="Shop for native seeds and seedlings">Shop Now</a>
+      <a href="#donate" class="btn btn-outline" aria-label="Donate to support reforestation efforts">Support Reforestation</a>
     </div>
   </header>
 
-  <section id="about" class="container" style="padding: 2rem 0;">
-    <h2>About Us</h2>
-    <p><strong>SylvanNorth develops high-performance ecological restoration tools backed by science and rooted in regenerative design principles.</strong></p>
-    <p>We approach reforestation as a systems-based challenge, requiring integrated biological, material, and cultural solutions. Our work is informed by ecological science, climate resilience research, and collaborative land stewardship practices.</p>
-    <p>Our flagship innovation, the <strong>BioPod</strong>, is a fully compostable, zero-waste planting system engineered for high-efficiency reforestation. Each BioPod is constructed from mycelium and coconut coir and embedded with genetically consistent, lab-propagated native seedlings and beneficial microbes to enhance soil function, biodiversity, and root establishment.</p>
-    <p>In addition to biological optimization, we integrate <strong>Indigenous-led restoration frameworks</strong> to ensure species selection, planting methods, and land-use protocols align with local ecological and cultural knowledge systems. This approach improves ecological outcomes while fostering shared stewardship models.</p>
-    <blockquote>
-      <p><strong>The BioPod system is designed for:</strong><br>
-      – Optimized seedling survival and growth<br>
-      – Elimination of plastic waste in field planting<br>
-      – Accelerated soil microbiome regeneration<br>
-      – Scalable, data-informed reforestation</p>
-    </blockquote>
-    <p>Our goal is not just to plant more trees—but to restore ecological function with measurable impact.</p>
-  </section>
+  <main>
+    <section id="about" class="container" style="padding: 2rem 0;">
+      <h2>About Us</h2>
+      <p><strong>SylvanNorth develops high-performance ecological restoration tools backed by science and rooted in regenerative design principles.</strong></p>
+      <p>We approach reforestation as a systems-based challenge, requiring integrated biological, material, and cultural solutions. Our work is informed by ecological science, climate resilience research, and collaborative land stewardship practices.</p>
+      <p>Our flagship innovation, the <strong>BioPod</strong>, is a fully compostable, zero-waste planting system engineered for high-efficiency reforestation. Each BioPod is constructed from mycelium and coconut coir and embedded with genetically consistent, lab-propagated native seedlings and beneficial microbes to enhance soil function, biodiversity, and root establishment.</p>
+      <p>In addition to biological optimization, we integrate <strong>Indigenous-led restoration frameworks</strong> to ensure species selection, planting methods, and land-use protocols align with local ecological and cultural knowledge systems. This approach improves ecological outcomes while fostering shared stewardship models.</p>
+      <blockquote>
+        <p><strong>The BioPod system is designed for:</strong><br>
+        – Optimized seedling survival and growth<br>
+        – Elimination of plastic waste in field planting<br>
+        – Accelerated soil microbiome regeneration<br>
+        – Scalable, data-informed reforestation</p>
+      </blockquote>
+      <p>Our goal is not just to plant more trees—but to restore ecological function with measurable impact.</p>
+    </section>
 
-  <section class="featured-products" id="shop">
-    <div class="container">
-      <h2>Featured Products</h2>
-      <div class="product-grid" id="product-grid">
-        <p>Loading products...</p>
+    <section class="featured-products" id="shop">
+      <div class="container">
+        <h2>Featured Products</h2>
+        <div class="product-grid" id="product-grid">
+          <p>Loading products...</p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="donation-section" id="donate">
-    <div class="container">
-      <h2>Help Reforest Ontario</h2>
-      <p>Your donation supports science-based reforestation, ecological restoration, and land stewardship across the province.</p>
-      <a href="https://donorbox.org/roots-of-change-support-local-reforestation-2" target="_blank">
-        <button class="donate-button" aria-label="Donate now to support reforestation">Donate Now</button>
-      </a>
-    </div>
-  </section>
+    <section class="donation-section" id="donate">
+      <div class="container">
+        <h2>Help Reforest Ontario</h2>
+        <p>Your donation supports science-based reforestation, ecological restoration, and land stewardship across the province.</p>
+        <a href="https://donorbox.org/roots-of-change-support-local-reforestation-2" target="_blank" rel="noopener">
+          <button class="donate-button" aria-label="Donate now to support reforestation">Donate Now</button>
+        </a>
+      </div>
+    </section>
 
-  <section class="container" id="resources" style="padding: 2rem 0;">
-    <h2>Explore Restoration Insights</h2>
-    <p>Get expert content on native species selection, BioPod design, and climate-smart forestry strategies.</p>
-    <a href="/blog/top-native-plants.html" class="btn btn-accent">Read More</a>
-  </section>
+    <section class="container" id="resources" style="padding: 2rem 0;">
+      <h2>Explore Restoration Insights</h2>
+      <p>Get expert content on native species selection, BioPod design, and climate-smart forestry strategies.</p>
+      <a href="/blog/top-native-plants.html" class="btn btn-accent">Read More</a>
+    </section>
+  </main>
 
   <footer>
     <div class="container">
@@ -232,7 +244,7 @@
   <script src="data.js"></script>
   <script src="main.js"></script>
 
-  <!-- Snipcart container (must be in body) -->
+  <!-- Snipcart container -->
   <div hidden id="snipcart" data-api-key="YOUR_PUBLIC_API_KEY"></div>
 </body>
 </html>
